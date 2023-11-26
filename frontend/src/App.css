@@ -4,33 +4,35 @@
 }
 
 .app-container {
+  background: linear-gradient(to right, #00aeff18, #0099ff8a);
   padding-top: 1cm;
-  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .register-container {
   padding: 10px 20px;
-  width: max-content;
+  width: 250px;
   height: max-content;
   border: 3px solid darkcyan;
   border-radius: 0px;
 }
 
 .register-title {
+  color:steelblue;
   text-align: center;
   margin-bottom: 20px;
   font-family: fantasy;
 }
 
 .register-input {
+  background-color:lightskyblue;
   display: block;
   margin: 10px auto;
   padding: 7px 0;
-  border-radius: 5px;
+  border-radius: 20px;
   color:darkcyan;
   font-size:0.5cm;
 }
