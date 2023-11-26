@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding-top: 1cm;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-container {
+  padding: 10px 20px;
+  width: max-content;
+  height: max-content;
+  border: 3px solid darkcyan;
+  border-radius: 0px;
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: fantasy;
+}
+
+.register-input {
+  display: block;
+  margin: 10px auto;
+  padding: 7px 0;
+  border-radius: 5px;
+  color:darkcyan;
+  font-size:0.5cm;
+}
+.register-input:hover {
+  background-color:lavender;
+}
+
+.register-button {
+  padding: 10px 20px;
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  border-radius: 0px;
+  font-size: 0.5cm;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: teal;
+}
