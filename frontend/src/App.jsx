@@ -56,27 +56,27 @@ export default function App() {
         <input
           type="text"
           name="titulo"
-          placeholder="Título"
+          placeholder=" Título"
           className="register-input"
           onChange={handleaddValues}
         />
         <input
           type="text"
-          placeholder="Autor"
+          placeholder=" Autor"
           name="autor"
           className="register-input"
           onChange={handleaddValues}
         />
         <input
           type="text"
-          placeholder="Gênero"
+          placeholder=" Gênero"
           name="genero"
           className="register-input"
           onChange={handleaddValues}
         />
         <input
           type="text"
-          placeholder="ISBN"
+          placeholder=" ISBN"
           name="ISBN"
           className="register-input"
           onChange={handleaddValues}
